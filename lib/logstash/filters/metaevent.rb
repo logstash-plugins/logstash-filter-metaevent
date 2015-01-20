@@ -5,7 +5,6 @@ require "logstash/namespace"
 
 class LogStash::Filters::Metaevent < LogStash::Filters::Base
   config_name "metaevent"
-  milestone 1
 
   # syntax: `followed_by_tags => [ "tag", "tag" ]`
   config :followed_by_tags, :validate => :array, :required => true
