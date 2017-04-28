@@ -1,0 +1,61 @@
+:plugin: metaevent
+:type: filter
+
+///////////////////////////////////////////
+START - GENERATED VARIABLES, DO NOT EDIT!
+///////////////////////////////////////////
+:version: %VERSION%
+:release_date: %RELEASE_DATE%
+:changelog_url: %CHANGELOG_URL%
+:include_path: ../../../logstash/docs/include
+///////////////////////////////////////////
+END - GENERATED VARIABLES, DO NOT EDIT!
+///////////////////////////////////////////
+
+[id="plugins-{type}-{plugin}"]
+
+=== Metaevent
+
+include::{include_path}/plugin_header.asciidoc[]
+
+==== Description
+
+
+
+[id="plugins-{type}s-{plugin}-options"]
+==== Metaevent Filter Configuration Options
+
+This plugin supports the following configuration options plus the <<plugins-{type}s-common-options>> described later.
+
+[cols="<,<,<",options="header",]
+|=======================================================================
+|Setting |Input type|Required
+| <<plugins-{type}s-{plugin}-followed_by_tags>> |<<array,array>>|Yes
+| <<plugins-{type}s-{plugin}-period>> |<<number,number>>|No
+|=======================================================================
+
+Also see <<plugins-{type}s-common-options>> for a list of options supported by all
+filter plugins.
+
+&nbsp;
+
+[id="plugins-{type}s-{plugin}-followed_by_tags"]
+===== `followed_by_tags` 
+
+  * This is a required setting.
+  * Value type is <<array,array>>
+  * There is no default value for this setting.
+
+syntax: `followed_by_tags => [ "tag", "tag" ]`
+
+[id="plugins-{type}s-{plugin}-period"]
+===== `period` 
+
+  * Value type is <<number,number>>
+  * Default value is `5`
+
+syntax: `period => 60`
+
+
+
+include::{include_path}/{type}.asciidoc[]
