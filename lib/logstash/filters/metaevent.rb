@@ -2,7 +2,7 @@
 require "logstash/filters/base"
 require "logstash/namespace"
 
-
+###################################################################################################
 class LogStash::Filters::Metaevent < LogStash::Filters::Base
   config_name "metaevent"
 
