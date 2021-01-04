@@ -1,6 +1,6 @@
 # Logstash Plugin
 
-[![Travis Build Status](https://travis-ci.org/logstash-plugins/logstash-filter-metaevent.svg)](https://travis-ci.org/logstash-plugins/logstash-filter-metaevent)
+[![Travis Build Status](https://travis-ci.com/logstash-plugins/logstash-filter-metaevent.svg)](https://travis-ci.com/logstash-plugins/logstash-filter-metaevent)
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
 
